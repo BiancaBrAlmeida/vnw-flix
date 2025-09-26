@@ -1,0 +1,29 @@
+// seletores (tag, class[.nome], id[#]): propriedades: valores
+//* = seletor global
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+img {
+  width: 300px;
+}
+
+.film1 {
+  background-color: lightgray;
+  border: 10px solid lightgrey;
+}
+
+.film2 {
+  background-color: rgb(197, 197, 197);
+  border: 10px solid rgb(197, 197, 197);
+}
+
+#bt1 {
+  background-color: rgb(168, 168, 168);
+}
+
+#bt2 {
+  background-color: lightgrey;
+}
