@@ -4,24 +4,93 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 300px;
+body {
+  background: linear-gradient(135deg, #111111, #790079);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.film1 {
-  background-color: lightgray;
-  border: 10px solid lightgrey;
+.logo_bflix {
+  width: 45px;
 }
 
-.film2 {
-  background-color: rgb(197, 197, 197);
-  border: 10px solid rgb(197, 197, 197);
+header, .navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#bt1 {
-  background-color: rgb(168, 168, 168);
+header {
+  background-color: #141414;
+  box-shadow: 1px 1px 10px #000000;
+  height: 3.5em;
+  justify-content: space-between;
+  padding: 0 5%;
 }
 
-#bt2 {
-  background-color: lightgrey;
+.navigation {
+  gap: 2.5em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #bb00bb;
+  transition: 1s;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #383838;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.film_series {
+  border: solid;
+  width: 20vw;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #383838;
+  border-color: #383838;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1vw;
+  margin: 1vw;
+}
+.film_series img {
+  width: 100%;
+  height: 26vw;
+  border-radius: 10px;
+  padding-bottom: 1vw;
+}
+.film_series button {
+  width: 100%;
+  padding: 5px;
+  background-color: #ff0000;
+  border-radius: 35px;
+  font-size: 1.2vw;
+  border-color: #ff0000;
+  color: #ffffff;
+  margin-top: 1vw;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding: 3% 5%;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  background-color: #141414;
+  box-shadow: 1px 1px 10px #000000;
+  height: 4em;
+  padding: 0 5%;
+  border: solid 10px #141414;
+}
+footer a {
+  text-decoration: none;
+  color: #bb00bb;
 }/*# sourceMappingURL=style.css.map */
